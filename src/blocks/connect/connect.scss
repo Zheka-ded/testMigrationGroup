@@ -42,9 +42,9 @@
         border-radius: 5px;
         background: #FFFFFF;
         box-shadow: 2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
-        width: 300px;
+        width: 318px;
         height: 48px;
-        padding-left: 18px;
+        text-indent: 18px;
 
         &:focus{
             outline-color: #0082C6;
@@ -102,3 +102,5 @@
     }
 
 }
+
+@import './connectAdapt.scss';

@@ -1,77 +1,22 @@
-// @media screen and (max-width: 668px) {
-//     .header{
-//         overflow: hidden;
-//         &__ul{
-//             display: flex;
-//             position: absolute;
-//             left: 700px;
-//         }
+@media screen and (max-width: 1259.98px) {
+    .header{
 
-//         &__nav{
-            
-//             .adaptive__menu{
-//                 display: flex;
-//                 flex-direction: column;
-//                 left: 0;
-//                 top: 100%;
-//                 background: #fff;
-//                 width: 100%;
-//                 transition: left 0.3s;
-//                 min-height: 150px;
-//                 box-shadow: 0px 1px 6px -2px #000;
+        &__title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            // padding: 0px 30px;
 
-//                 li{
-//                     margin: 10px 20px;
-//                 }
-//             }
-//         }
-        
-//         &__burger-wrap{
-//             display: flex;
-//             width: 40px;
-//             height: 30px;
-//             justify-content: center;
-//             align-items: center;
-//         }
-//     }
+            h4{
+                text-align: center;
+            }
+        }
 
-// }
+        &__subtitle{
+            width: 100%;
+            padding: 0px 30px;
+        }
+    }
 
-// .is__active{
-
-//     .header__burger-span{
-//         background: transparent;
-//         transition: 0.3s;
-
-//         &::before{
-//             top: 0;
-//             transition: all 0.3s;
-//             animation: anim-before 0.3s 0.3s both;
-//         }
-
-//         &::after{
-//             bottom: 0;
-//             transition: all 0.3s;
-//             animation: anim-after 0.3s 0.3s both;
-//         }
-
-//     }
-// }
-
-// @keyframes anim-before{
-//     0%{
-//         transform: rotate(0deg);
-//     }
-//     100%{
-//         transform: rotate(45deg);
-//     }
-// }
-
-// @keyframes anim-after{
-//     0%{
-//         transform: rotate(0deg);
-//     }
-//     100%{
-//         transform: rotate(-45deg);
-//     }
-// }
+}

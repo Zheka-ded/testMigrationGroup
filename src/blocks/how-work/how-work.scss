@@ -8,6 +8,7 @@
     h4{
         width: 100%;
         text-align: left;
+        margin-bottom: 23px;
     }
 
     &__list{
@@ -108,9 +109,11 @@
 
     &__input-btn{
         border: none;
-        width: 400px;
-        height: 75px;
+        // width: 400px;
+        // height: 75px;
+        padding: 23.5px 55px;
         background: linear-gradient(180deg, #0C89CF 0%, #4FACFE 100%);
+        box-shadow: 0px 20px 22px rgba(0, 131, 202, 0.15), inset 5px 5px 20px rgba(0, 0, 0, 0.15);
         border-radius: 55px;
         
         font-family: 'Raleway', sans-serif;
@@ -125,3 +128,5 @@
         cursor: pointer;
     }
 }
+
+@import './how-workAdapt.scss'
