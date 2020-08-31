@@ -1,0 +1,115 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    max-width: 1134px;
+
+    &__item-wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: row;
+        width: 544px;
+        margin: 16px 9px;
+    }
+
+    &__item-img{
+        width: 100px;
+        height: 100px;
+        margin-right: 14px;
+    }
+
+    &__item-description{
+        display: flex;
+        flex-direction: column;
+
+        &-name{
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &-position{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 200%;
+            letter-spacing: 2px;
+            color: #0083CA;
+        }
+
+        &-activity{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 150%;
+            color: #000000;
+            min-height: 43px;
+            margin-top: 4px;
+            margin-bottom: 15px;
+        }
+
+        &-does{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 150%;
+            color: #000000;
+            min-height: 106px;
+        }
+
+        &-more-link{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 200%;
+            letter-spacing: 2px;
+            width: max-content;
+            color: #0083CA;
+            position: relative;
+            margin-bottom: 12px;
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 100%;
+                bottom: 20%;
+                border-bottom: 1px solid #0083CA;
+            }
+        }
+
+        &-list{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+                border: 1px solid #0083CA;
+                border-radius: 50%;
+                margin: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
