@@ -218,35 +218,30 @@ a {
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      line-height: 16px;
       color: #02679E; }
     .connect__input-name::-moz-placeholder, .connect__input-email::-moz-placeholder {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      line-height: 16px;
       color: #02679E; }
     .connect__input-name:-ms-input-placeholder, .connect__input-email:-ms-input-placeholder {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      line-height: 16px;
       color: #02679E; }
     .connect__input-name::-ms-input-placeholder, .connect__input-email::-ms-input-placeholder {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      line-height: 16px;
       color: #02679E; }
     .connect__input-name::placeholder, .connect__input-email::placeholder {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      line-height: 16px;
       color: #02679E; }
   .connect__input-btn {
     border: none;
