@@ -1,11 +1,9 @@
 @media screen and (max-width: 895.98px) {
     .connect{
-        // width: 90%;
         width: auto;
         padding: 0px 15px;
 
         &__form{
-            // width: inherit;
             width: auto;
             padding: 40px 20px;
         }
@@ -13,8 +11,6 @@
         &__form-wrap{
             display: flex;
             flex-direction: row;
-            // flex-direction: column;
-            // align-items: center;
             justify-content: space-between;
         }
 
