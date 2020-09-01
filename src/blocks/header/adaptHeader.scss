@@ -5,18 +5,33 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 90%;
-            // padding: 0px 30px;
+            // width: 90%;
+            padding: 0px 15px;
 
             h4{
                 text-align: center;
             }
         }
 
-        &__subtitle{
-            width: 100%;
-            padding: 0px 30px;
+        // &__subtitle{
+        //     // width: 100%;
+        //     // padding: 0px 30px;
+        // }
+    }
+
+}
+
+@media screen and (max-width: 610px) {
+    .header{
+
+        &__container{
+            background-position: top;
         }
+
+        &__text{
+            font-size: 48px;
+        }
+
     }
 
 }

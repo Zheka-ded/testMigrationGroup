@@ -1,4 +1,4 @@
-@media screen and (max-width: 1259.98px) {
+@media screen and (max-width: 1130.98px) {
     .how-work{
         h4{
             width: max-content;
@@ -10,3 +10,54 @@
     }
 
 }
+
+@media screen and (max-width: 610px) {
+    .how-work{
+
+        padding: 0px 15px;
+
+        h4{
+            width: auto;
+            text-align: center;
+        }
+
+        &__list{
+            width: auto;
+            
+            li{
+                flex-direction: column;
+                width: 95%;
+                width: 100%;
+                padding: 0px 10px;
+            }
+
+        }
+
+        &__list-item-number{
+            margin: 0;
+        }
+
+        &__list-item{
+            // padding-left: 16px;
+            width: auto;
+        }
+
+        &__list-item-text{
+            font-size: 20px;
+        }
+
+        &__input-btn{
+            font-size: 17px;
+            padding: 15px 24px;
+        }
+    }
+}
+
+// @media screen and (max-width: 350px) {
+//     .how-work{
+//         h4{
+//             width: auto;
+//             text-align: center;
+//         }
+//     }
+// }

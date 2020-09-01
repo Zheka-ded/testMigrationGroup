@@ -1,20 +1,25 @@
 @media screen and (max-width: 895.98px) {
     .connect{
-        width: 90%;
+        // width: 90%;
+        width: auto;
+        padding: 0px 15px;
 
         &__form{
             // width: inherit;
-            width: 80%;
+            width: auto;
+            padding: 40px 20px;
         }
         
         &__form-wrap{
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-direction: row;
+            // flex-direction: column;
+            // align-items: center;
+            justify-content: space-between;
         }
 
         &__input-name, &__input-email{
-            width: 100%;
+            width: 48%;
         }
 
         
@@ -25,6 +30,21 @@
         &__input-email{
             margin-left: 0;
         }
+    }
+
+}
+
+@media screen and (max-width: 610px) {
+    .connect{
+        &__form-wrap{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__input-name, &__input-email{
+            width: 100%;
+        }
+
     }
 
 }
